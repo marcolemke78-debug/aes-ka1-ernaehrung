@@ -58,7 +58,7 @@
           <h3>Was hat unser Essen damit zu tun? (M2)</h3>
           ${bars()}
           <p>Etwa ein <strong>Viertel (26 %)</strong> aller Treibhausgase weltweit kommt von unserer <strong>Ernährung</strong>. Den größten Anteil davon hat die <strong>Nutztierhaltung</strong> mit 31 %. Kühe stoßen beim Verdauen <strong>Methan</strong> aus. Methan schadet dem Klima noch viel mehr als CO₂.</p>
-          <div class="warning-box"><strong>Überraschung:</strong> Viele denken, der Transport sei das Hauptproblem. Handel, Verpackung, Transport und Verarbeitung zusammen machen aber nur <strong>18 %</strong> aus. <strong>Was</strong> wir essen, ist wichtiger als <strong>woher</strong> es kommt.</div>
+          <div class="warning-box"><strong>Überraschung:</strong> Viele denken, der Transport sei das Hauptproblem. Handel, Verpackung, Transport und Verarbeitung zusammen machen aber nur <strong>18 % von den 26 %</strong> aus. <strong>Was</strong> wir essen, zählt also am meisten. Regional und saisonal einkaufen (Klimatipp 3) ist trotzdem richtig, denn auch kleine Anteile summieren sich.</div>
           <div class="why-context"><strong>Warum ist das wichtig?</strong> M2 war eine Schätzaufgabe. In der KA kann gefragt werden, wie groß der Anteil des Essens ist und welcher Bereich am meisten ausstößt.</div>`
       },
       example: {
@@ -131,7 +131,7 @@
           <ul>
             <li><strong>Tipp 1:</strong> Tiere brauchen viel Futter und Weidefläche, Rinder stoßen Methan aus. Pflanzen sind klimafreundlicher.</li>
             <li><strong>Tipp 2:</strong> Jeder Mensch in Deutschland wirft im Schnitt <strong>78 kg</strong> Lebensmittel pro Jahr weg. Wasser, Energie und Ackerboden für diese Lebensmittel wurden umsonst verbraucht.</li>
-            <li><strong>Tipp 3:</strong> <strong>Bio</strong> = ohne chemische Pflanzenschutzmittel, gut für Böden und Artenvielfalt. <strong>Regional</strong> = aus der Nähe, kurze Wege. <strong>Saisonal</strong> = wächst gerade bei uns, braucht kein geheiztes Gewächshaus. Flugware (z. B. Mangos) ist schlecht fürs Klima.</li>
+            <li><strong>Tipp 3:</strong> <strong>Bio</strong> = ohne chemisch-synthetische Pflanzenschutzmittel, gut für Böden und Artenvielfalt. <strong>Regional</strong> = aus der Nähe, kurze Wege. <strong>Saisonal</strong> = wächst gerade bei uns, braucht kein geheiztes Gewächshaus. Flugware (z. B. Mangos) ist schlecht fürs Klima.</li>
           </ul>
           <div class="why-context"><strong>Warum ist das wichtig?</strong> Die drei Überschriften waren auf deinen Blättern rot eingekreist. Am besten kannst du sie aufschreiben, ohne nachzuschauen.</div>`
       },

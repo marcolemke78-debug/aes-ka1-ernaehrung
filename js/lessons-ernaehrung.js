@@ -8,8 +8,8 @@
       { n: 6, c: '#7cc36b', t: '6 × Getränke' },
       { n: 5, c: '#7cc36b', t: '5 × Gemüse und Obst' },
       { n: 4, c: '#7cc36b', t: '4 × Getreide, Brot, Kartoffeln' },
-      { n: 3, c: '#f2c94c', t: '2 × Milch + 1 × Fleisch/Fisch/Ei', last: '#f2994a' },
-      { n: 2, c: '#f2c94c', t: 'Fette, Öle und Nüsse' },
+      { n: 3, c: '#f2c94c', t: '2 × Milch + 1 × Fleisch/Fisch/Ei' },
+      { n: 3, c: '#f2c94c', t: '2 × Fette/Öle + 1 × Nüsse' },
       { n: 1, c: '#eb5757', t: '1 × Süßes, Snacks' }
     ];
     const w = 34, h = 30, gap = 3, cx = 120;
@@ -40,7 +40,7 @@
             <tr><td><strong>1. Am besten Wasser trinken</strong></td><td>rund <strong>1,5 Liter</strong> täglich, am besten Wasser oder ungesüßten Tee. Zuckerhaltige und alkoholische Getränke sind nicht empfehlenswert.</td></tr>
             <tr><td><strong>2. Obst und Gemüse: viel und bunt</strong></td><td>mindestens <strong>5 Portionen</strong> täglich (Handmaß). Saisonale Auswahl wird empfohlen.</td></tr>
             <tr><td><strong>3. Hülsenfrüchte und Nüsse regelmäßig essen</strong></td><td>Hülsenfrüchte: mindestens <strong>1 Portion pro Woche</strong> (ca. 125 g gegart). Nüsse: ca. <strong>25 g täglich</strong>.</td></tr>
-            <tr><td><strong>4. Vollkorn ist die beste Wahl</strong></td><td>Mindestens <strong>ein Drittel</strong> der Getreideprodukte als Vollkorn.</td></tr>
+            <tr><td><strong>4. Vollkorn ist die beste Wahl</strong></td><td>Mindestens <strong>ein Drittel</strong> der Getreideprodukte als Vollkorn. Ca. <strong>5 Portionen</strong> Getreide/Brot pro Tag.</td></tr>
             <tr><td><strong>5. Pflanzliche Öle bevorzugen</strong></td><td><strong>10 g Pflanzenöl</strong> täglich (z. B. Rapsöl) plus <strong>10 g Margarine/Butter</strong>.</td></tr>
           </table>
           <div class="analogy-box"><strong>Handmaß:</strong> Eine Portion ist ungefähr so viel, wie in deine Hand passt. Ein Apfel = 1 Portion, eine Handvoll Beeren = 1 Portion, eine Paprika = 1 Portion. Weil Kinder kleinere Hände haben, sind ihre Portionen automatisch kleiner. Praktisch, oder?</div>
@@ -174,15 +174,16 @@
       explanation: {
         html: `
           <p>Die <strong>Ernährungspyramide</strong> vom Bundeszentrum für Ernährung (BZfE) zeigt die DGE-Regeln als Bild. Jeder Baustein ist <strong>eine Portion</strong> (Handmaß) <strong>pro Tag</strong>.</p>
+          <div class="tip-box"><strong>Zahlen nicht durcheinanderbringen:</strong> In der Pyramide gibt es <strong>4</strong> Bausteine Getreide, in deinem Heft (DGE) steht <strong>ca. 5</strong> Portionen Getreide/Brot. Nimm in der KA die Zahl, nach der gefragt wird (Pyramide oder DGE). Der eine Baustein Fleisch/Fisch/Ei ist eine Obergrenze. Für Wochenmengen gelten die DGE-Regeln 7 und 8 (Fisch 1–2 Portionen, Fleisch max. 300 g pro Woche).</div>
           ${pyramid()}
           <p>Die Farben funktionieren wie eine <strong>Ampel</strong>:</p>
           <ul>
             <li><strong style="color:#3a8a2c">Grün (unten):</strong> reichlich. Getränke, Gemüse und Obst, Getreide und Kartoffeln.</li>
-            <li><strong style="color:#b8860b">Gelb (Mitte):</strong> maßvoll. Milchprodukte, Fleisch/Fisch/Ei, Fette und Öle, Nüsse.</li>
+            <li><strong style="color:#b8860b">Gelb (Mitte):</strong> maßvoll. 2 Milchprodukte, 1 Fleisch/Fisch/Ei, 2 Fette/Öle, 1 Nüsse.</li>
             <li><strong style="color:#c0392b">Rot (Spitze):</strong> sparsam. Süßes und salzige Snacks.</li>
           </ul>
           <div class="analogy-box"><strong>Wie ein Haus:</strong> Unten ist das breite Fundament. Davon braucht man am meisten. Je weiter nach oben, desto schmaler wird es und desto weniger davon braucht man. Die Spitze ist wie das Dach: klein.</div>
-          <div class="warning-box"><strong>Das ist neu:</strong> In der <strong>neuen</strong> Pyramide (seit 2024) gibt es nur noch <strong>2 Bausteine Milch</strong> und <strong>1 Baustein Fleisch/Fisch/Ei</strong>. Die neue Pyramide achtet nämlich nicht nur auf die Gesundheit, sondern auch auf die <strong>Umwelt und das Klima</strong>.</div>
+          <div class="warning-box"><strong>Das ist neu:</strong> In der <strong>neuen</strong> Pyramide gibt es nur noch <strong>2 Bausteine Milch</strong> und <strong>1 Baustein Fleisch/Fisch/Ei</strong>. Die neue Pyramide achtet nämlich nicht nur auf die Gesundheit, sondern auch auf die <strong>Umwelt und das Klima</strong>.</div>
           <h3>Das Pyramidenfrühstück</h3>
           <p>Ein gutes Frühstück besteht aus vier Teilen: <strong>Getränk</strong> (Wasser) + <strong>Gemüse oder Obst</strong> (Möhre oder Apfel) + <strong>Getreide</strong> (Vollkornbrot, Haferflocken) + <strong>Milchprodukt</strong> (Joghurt, Käse, Milch). Damit ist man fit für den Unterricht und für den Sport.</p>
           <div class="why-context"><strong>Warum ist das wichtig?</strong> Auf dem Blatt A3 sollst du die Symbole erklären. In der KA kann eine Pyramide abgebildet sein, an der du zeigen sollst, wovon man viel und wovon man wenig essen soll.</div>`
@@ -199,7 +200,7 @@
       exercises: [
         {
           type: 'fill-in-blank',
-          question: 'Wie viele Bausteine (Portionen pro Tag) hat die Pyramide?',
+          question: 'Wie viele Bausteine (Portionen pro Tag) hat die <strong>Pyramide</strong>?',
           text: 'Getränke: {{blank}} · Gemüse und Obst: {{blank}} · Getreide und Kartoffeln: {{blank}} · Milch und Milchprodukte: {{blank}} · Süßes und Snacks: {{blank}}',
           blanks: [
             { correct: '6', alternatives: ['sechs'] },
@@ -223,7 +224,7 @@
         },
         {
           type: 'multiple-choice',
-          question: 'Warum hat die <strong>neue</strong> Pyramide weniger Bausteine für Milch und Fleisch?',
+          question: 'Warum hat die <strong>neue</strong> Pyramide nur noch 2 Bausteine Milch?',
           options: ['Weil Milch und Fleisch giftig sind', 'Weil sie auch Umwelt und Klima berücksichtigt', 'Weil diese Lebensmittel zu teuer geworden sind', 'Weil Kinder keine Milch mehr brauchen'],
           correct: 1,
           wrongExplanations: {

@@ -94,7 +94,7 @@ window.LESSON_DATA = (window.LESSON_DATA || []).concat([
       steps: [
         { label: 'Beispiel 1', html: '<p>Die Klasse sammelt bei einem Aktionstag Müll am Bach. Es geht um die Umwelt, also ist das <strong>ökologisches</strong> Engagement.</p>' },
         { label: 'Beispiel 2', html: '<p>Ein Nachbar spielt im Musikverein Trompete. Musik gehört zur Kultur, also ist das <strong>kulturelles</strong> Engagement.</p>' },
-        { label: 'Beispiel 3', html: '<p>Eine Schülerin ist Klassensprecherin und vertritt die Klasse in der SMV. Es geht um Mitbestimmung, also ist das <strong>gesellschaftspolitisches</strong> Engagement.</p>' }
+        { label: 'Beispiel 3', html: '<p>Ein Jugendlicher ist in der Jugendorganisation einer Partei aktiv und setzt sich für die Demokratie ein. Das ist Arbeit in einem politischen Verband, also <strong>gesellschaftspolitisches</strong> Engagement.</p>' }
       ]
     },
     exercises: [
